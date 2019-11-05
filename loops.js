@@ -19,4 +19,3 @@ function whileLoop(number){
     countdown--;
   } return "done";
   }
-
