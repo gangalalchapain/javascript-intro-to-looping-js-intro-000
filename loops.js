@@ -11,7 +11,7 @@ function forLoop(array){
   return array;
 }
 
-
+// while Loop
 function whileLoop(number){
   let countdown = number;
   while (countdown > 0 ){
@@ -19,4 +19,19 @@ function whileLoop(number){
     countdown--;
 
     } return "done";
+  }
+
+// do While Loop 
+
+function doWhileLoop(num){
+  var i = 0;
+  function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+ 
+  do {
+  console.log("doo-bee-doo-bee-doo");
+  } while (incrementVariable() < 5);
+  
   }
